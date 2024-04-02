@@ -26,11 +26,11 @@ Please download the pretrained models and install tmc3 mentioned above first.
 ```shell
 sudo chmod 777 tmc3 pc_error_d
 ```
-For rate point 01
+For rate point R01
 ```shell
 python test.py --filedir='8iVFB' --res='1023' --ckptdir='./ckpt_pretrain/r01_0.05bpp/epoch_last.pth' --pct_pos
 ```
-For rate point 02-r04
+For rate point R02-R04
 ```shell
 python test.py --filedir='8iVFB' --res='1023' --ckptdir='./ckpt_pretrain/r02_0.25bpp/epoch_last.pth'
 python test.py --filedir='8iVFB' --res='1023' --ckptdir='./ckpt_pretrain/r03_0.5bpp/epoch_last.pth'
