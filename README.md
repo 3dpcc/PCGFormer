@@ -38,8 +38,7 @@ python test.py --filedir='8iVFB' --res='1023' --ckptdir='./ckpt_pretrain/r04_0.6
 ```
 The testing rusults can be found in `./results`
 
-local kNN Transformer is in transformer_pos.py and transformer.py.
-
+Local kNN-based Transformer module is in transformer_pos.py and transformer.py.
 The difference is whether there is a position embedding, the use of position embbeding at low bit rate points has better performance.
 It is recommended that you use transformer_pos.py.
 
